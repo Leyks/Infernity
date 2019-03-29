@@ -6,15 +6,15 @@ bot.on('ready', function () {
 }
 
 	)
-
-bot.on("guildMemberAdd", member => {
+/*
+bot.on("guildMemberAdd", function (member) => {
 	member.guild.channels.find("name", "general").send('Bienvenue ${member}')
 })
 
-bot.on("guildMemberRemove", member => {
+bot.on("guildMemberRemove", function (member) => {
 	member.guild.channels.find("name", "general").send('${member} vient de quitter le serveur')
 })
-
+*/
 
 bot.on('guildMemberAdd', function (member) {
 	member.createDM().then(function(channel) {
