@@ -11,7 +11,7 @@ bot.on('ready', function () {
 bot.on('guildMemberAdd', function (member) {
 	member.createDM().then(function(channel) {
 		return channel.send('Bienvenue sur le serveur ' + member.displayName)
-		channel.sendMessage ('Bienvenue sur le serveur ' + member.displayName + " ! N'ésite pas aller voir les #infos_du_clan et les #règles ainsi que de rejoindre le clan si ce n'est pas déjà fait !" )
+		général.sendMessage ('Bienvenue sur le serveur ' + member.displayName + " ! N'ésite pas aller voir les #infos_du_clan et les #règles ainsi que de rejoindre le clan si ce n'est pas déjà fait !" )
 	}).catch(console.error)
 	
 	}
