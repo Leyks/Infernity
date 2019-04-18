@@ -2,7 +2,8 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 
 bot.on('ready', function () {
-	bot.user.setGame('Tape !co').catch(console.error)
+	bot.user.setActivity('Le flood', { type: 'WATCHING' })
+	//bot.user.setGame('Tape !co').catch(console.error)//
 }
 
 	)
