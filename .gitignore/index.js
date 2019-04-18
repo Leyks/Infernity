@@ -13,7 +13,7 @@ bot.on('message',function (message) {
 		message.channel.send('oui')
 	}
 })
-bot.on("guildMemberAdd", function (member) => {
+bot.on('guildMemberAdd', function (message) => {
 	message.member.addRole('Role test')
 })
 /*
