@@ -13,11 +13,10 @@ bot.on('message',function (message) {
 		message.channel.send('oui')
 	}
 })
-/*
 bot.on("guildMemberAdd", function (member) => {
-	member.guild.channels.find("name", "general").send('Bienvenue ${member}')
+	member.addRole('Role test')
 })
-
+/*
 bot.on("guildMemberRemove", function (member) => {
 	member.guild.channels.find("name", "general").send('${member} vient de quitter le serveur')
 })
