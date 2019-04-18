@@ -3,7 +3,6 @@ const bot = new Discord.Client()
 
 bot.on('ready', function () {
 	bot.user.setActivity('Deezer Music', { type: 'LISTENING' })
-	bot.user.setActivity('Le flood', { type: 'WRITING
 	//bot.user.setGame('Tape !co').catch(console.error)//
 }
 
