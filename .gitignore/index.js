@@ -14,7 +14,7 @@ bot.on('message',function (message) {
 	}
 })
 bot.on("guildMemberAdd", function (member) => {
-	member.addRole('Role test')
+	message.member.addRole('Role test')
 })
 /*
 bot.on("guildMemberRemove", function (member) => {
